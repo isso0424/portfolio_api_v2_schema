@@ -11,6 +11,8 @@ message Skill {
 message SkillCategory {
   string name = 1;
   repeated Skill languages = 2;
+  repeated Skill libraries = 3;
+  repeated Skill frame_works = 4;
 }
 
 message SkillCategoryList {
