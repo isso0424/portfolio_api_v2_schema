@@ -10,11 +10,12 @@ message Skill {
 
 message SkillCategory {
   string name = 1;
-  repeated Skill skills = 2;
+  repeated Skill languages = 2;
 }
 
 message SkillCategoryList {
   repeated SkillCategory categories = 1;
+  repeated Skill other_skills = 2;
 }
 
 service SkillService {
